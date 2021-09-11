@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Développeur fullstack en recherche d'emploi - Alexandre Kelifa</title>
+        <meta charset="utf-8"/>
+        <meta name="author" content="Alexandre Kelifa"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="description" content="Hello, je suis Alexandre Kelifa, développeur fullstack spécialisé Node.js / React, actuellement post-formation remote chez oclock.io depuis la ville de Préfailles ( 44, Nantes ), France."/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Développeur fullstack en recherche d'emploi - Alexandre Kelifa"/>
+        <meta property="og:image" content="https://github.com/AlphaKappa44"/>
+        <meta property="og:description" content="Hello, je suis Alexandre Kelifa, développeur fullstack spécialisé Node.js / React, actuellement post-formation remote chez oclock.io depuis la ville de Préfailles ( 44, Nantes ), France."/>
+        <meta name="twitter:title" content="Développeur fullstack en recherche d'emploi - Alexandre Kelifa"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image" content="https://twitter.com/AlexandreKelifa"/>
+        <meta name="twitter:description" content="Hello, je suis Alexandre Kelifa, développeur fullstack spécialisé Node.js / React, actuellement post-formation remote chez oclock.io depuis la ville de Préfailles ( 44, Nantes ), France."/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./src/css/base.css"/>
+        <link rel="stylesheet" href="./src/css/card.css"/>
+        <link rel="stylesheet" href="./src/css/thumbnail.css"/>
+        <link rel="stylesheet" href="./src/css/path.css"/>
+        <link rel="stylesheet" href="./src/css/skill-box.css"/>
+        <link rel="stylesheet" href="./src/css/list.css"/>
+        <link rel="favicon" href="/src/img/favicon.ico"/>
+    </head>
+    <body>
+        <div class="page">
+            <div class="card" id="person">
+                <img id="person-picture" src="src/img/android-chrome-192x192.png"/>
+                <img id="person-country" src="https://image.flaticon.com/icons/svg/197/197560.svg"/>
+                <section>
+                    <h1 id="person-fullname"></h1>
+                    <h2 id="person-job"></h2>
+                    <p>Hello, je suis
+                        <strong id="person-firstname">Alexandre</strong>  
+                        <strong id="person-position">Kélifa</strong> </br>spécialisé en 
+                        <strong id="person-speciality">JavaScript</strong> 
+                        <strong id="person-company"></strong> à 
+                        <strong id="person-city">Nantes & St Nazaire.</strong>.</p>
+                    <div>
+                        <a class="button" target="_blank" id="person-email" href="mailto:alexandre.kelifa@gmail.com">M'envoyer un email</a>
+                        <span class="or"> ou </span>
+                        <a target="_blank" class="button" href="src/img/CV_2021-08-25_Alexandre_Kelifa.pdf">Voir mon CV</a>
+                    </div>
+                    <hr/>
+                </section>
+                <section>
+                    <h3>Compétences</h3>
+                    <ul class="list">
+                        <li>
+                            <div class="skill-box">
+                                <span class="skill-favorite fa fa-bolt"></span>
+                                HTML/CSS
+                                <div class="box-well">
+                                    Langage
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                <span class="skill-favorite fa fa-bolt"></span>
+                                JavaScript
+                                <div class="box-well">
+                                    Langage
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                <span class="skill-favorite fa fa-bolt"></span>
+                                React.js
+                                <div class="box-well">
+                                    Librairie
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                Node.js
+                                <div class="box-well">
+                                    Language serveur
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                Ruby
+                                <div class="box-well">
+                                    Language serveur
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                Ruby on Rails
+                                <div class="box-well">
+                                    Framework
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                Git
+                                <div class="box-well">
+                                    Versioning
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                Heroku
+                                <div class="box-well">
+                                    Cloud
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <hr/>
+                </section>
+                <section>
+                    <h3>Réalisations</h3>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(/src/img/comicsTripLogo.png)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Ruby on Rails</span>
+                            <p class="thumbnail-title">ComicsTrip </p>
+                            <p class="thumbnail-description">
+                                Projet de groupe réalisé @<strong id="school">TheHackinProject</strong> </br>
+                                Vos BD ont plusieurs vies </br> 
+                                Vendez vos occasions </br>
+                                Partagez vos critiques. 
+                            </p>
+                            <div class="thumbnail-footer">
+                                <a href="https://comics-trip-development.herokuapp.com/" target="_blank">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(/src/img/Poker.png)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">React - Node.js</span>
+                            <p class="thumbnail-title">Poker Tool </p>
+                            <p class="thumbnail-description">Projet de groupe </br>
+                                réalisé avec agilité </br>
+                                @<strong id="school">oclock.io</strong> </br>
+                                Gestion de parties de poker entre amis.
+
+                            </p>
+                            <div class="thumbnail-footer">
+                                <a href="https://youtu.be/8mXTo0QdNGw?t=4240" target="_blank">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(/src/img/APIMeteo.png)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">React - API</span>
+                            <p class="thumbnail-title">API Météo </p>
+                            <p class="thumbnail-description">La plus belle météo à Préfailles et même chez vous!</p>
+                            <div class="thumbnail-footer">
+                                <a href="http://meteo-derdiri.surge.sh/" target="_blank">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr/>
+                </section>
+                <section>
+                    <h3>Parcours</h3>
+                    <div class="path">
+                        <div class="step">
+                            <p class="step-title">Oclock.io - 2021</p>
+                            <p>Dîplomé d'un titre professionnel de développeur web et web mobile</p>
+                        </div>
+                        <div class="step">
+                            <p class="step-title">Opquast - Juillet 2021</p>
+                            <p>Formation maîtrise de la qualité en projet Web</p>
+                        </div>
+                        <div class="step">
+                            <p class="step-title">The Hacking Project - session covid 2020</p>
+                            <p>Formation Ruby On Rails</p>
+                        </div>
+                        <div class="step">
+                            <p class="step-title">ITAS et interim - 2010 à 2019</p>
+                            <p>Chef de chantier et technicien réseaux mobile</p>
+                        </div>
+                        <div class="step">
+                            <p class="step-title">BTS électrotechnique - 2009
+                            <p>Création d'une application de mise en relation entre particuliers et professionnels</p>
+                        </div>
+                        <div class="step">
+                            <p class="step-title">Interim - 2002 à 2009</p>
+                            <p>Electrien et monteur réseau mobile</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script src="./src/js/main.js"></script>
+    </body>
+</html>
