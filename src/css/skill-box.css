@@ -3,7 +3,7 @@
     display: inline-block;
     box-sizing: border-box;
     background: #1abc9c;
-    padding: 10px 15px;
+    padding: 10px 10px;
     border-radius: 3px;
     color: white;
     margin: 5px;
@@ -16,6 +16,26 @@
     top: calc(50% - 10px);
     left: -20px;
 }
+
+.skills-icons-right {
+    background-color: white;
+    height: 30px;
+    position: relative;
+    display: inline-block;  
+    top: calc(50% - 15px);
+    left: 10px;
+    margin-left: 10px;
+}
+
+.skills-icons-left {
+    background-color: white;
+    height: 30px;
+    position: relative;
+    display: inline-block;  
+    top: calc(50% - 15px);
+    left: 240px;
+}
+
 
 .list li:nth-child(even) .skill-box .fa.skill-favorite {
     left: initial;
@@ -37,14 +57,31 @@
     font-size: 12px;
     line-height: 20px;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 650px){
     .skill-box {
         width: 100%;
-        max-width: 250px;
+        max-width: 650px;
         text-align: center;
     }
     .list li:nth-child(even) .skill-box .fa.skill-favorite {
         left: -20px;
         right: initial;
     }
+    .skills-icons-right {
+    background-color: white;
+    height: 30px;
+    /* position: relative; */
+    display: inline-block;  
+    top: calc(50% - 15px);
+    left: -25px;
+}
+
+.skills-icons-left {
+    background-color: white;
+    height: 30px;
+    position: relative;
+    display: inline-block;  
+    top: calc(50% - 50px);
+    left: 50px;
+}
 }

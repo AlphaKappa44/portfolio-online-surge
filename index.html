@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Développeur fullstack en recherche d'emploi - Alexandre Kelifa</title>
+        <title>Alexandre Kelifa - Développeur JS junior en recherche d'emploi -</title>
         <meta charset="utf-8"/>
         <meta name="author" content="Alexandre Kelifa"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <meta name="description" content="Hello, je suis Alexandre Kelifa, développeur fullstack spécialisé Node.js / React, actuellement post-formation remote chez oclock.io depuis la ville de Préfailles ( 44, Nantes ), France."/>
+        <meta name="description" content="Hello, je suis Alexandre Kelifa, développeur JS Junior fullstack Node.js / React, actuellement post-formation remote chez oclock.io depuis la ville de Préfailles ( 44, Nantes ), France."/>
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="Développeur fullstack en recherche d'emploi - Alexandre Kelifa"/>
         <meta property="og:image" content="https://github.com/AlphaKappa44"/>
-        <meta property="og:description" content="Hello, je suis Alexandre Kelifa, développeur fullstack spécialisé Node.js / React, actuellement post-formation remote chez oclock.io depuis la ville de Préfailles ( 44, Nantes ), France."/>
+        <meta property="og:description" content="Hello, je suis Alexandre Kelifa, développeur JS junior fullstack Node.js / React, actuellement post-formation remote chez oclock.io depuis la ville de Préfailles ( 44, Nantes ), France."/>
         <meta name="twitter:title" content="Développeur fullstack en recherche d'emploi - Alexandre Kelifa"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:image" content="https://twitter.com/AlexandreKelifa"/>
-        <meta name="twitter:description" content="Hello, je suis Alexandre Kelifa, développeur fullstack spécialisé Node.js / React, actuellement post-formation remote chez oclock.io depuis la ville de Préfailles ( 44, Nantes ), France."/>
+        <meta name="twitter:description" content="Hello, je suis Alexandre Kelifa, développeur JS junior fullstack Node.js / React, actuellement post-formation remote chez oclock.io depuis la ville de Préfailles ( 44, Nantes ), France."/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
         <link rel="stylesheet" href="./src/css/base.css"/>
         <link rel="stylesheet" href="./src/css/card.css"/>
         <link rel="stylesheet" href="./src/css/thumbnail.css"/>
         <link rel="stylesheet" href="./src/css/path.css"/>
         <link rel="stylesheet" href="./src/css/skill-box.css"/>
         <link rel="stylesheet" href="./src/css/list.css"/>
+        <link rel="stylesheet" href="./src/css/base.css"/>
+        <link rel="stylesheet" href="./src/css/network.css"/>
         <link rel="favicon" href="/src/img/favicon-32x32.png"/>
     </head>
     <body>
@@ -32,12 +34,17 @@
                 <section>
                     <h1 id="person-fullname"></h1>
                     <h2 id="person-job"></h2>
-                    <p>Hello, je suis
-                        <strong id="person-firstname">Alexandre</strong>  
-                        <strong id="person-position">Kélifa</strong> </br>spécialisé en 
-                        <strong id="person-speciality">JavaScript</strong> 
-                        <strong id="person-company"></strong> à 
-                        <strong id="person-city">Nantes & St Nazaire.</strong>.</p>
+                    <p id="person-description">Bienvenu.e.s, je m'appelle
+                        <strong id="person-firstname">Alexandre.</strong>  
+                        <strong id="person-position">Kélifa;</strong> </br>
+                        Je suis développeur junior JavaScript
+                        <strong id="person-speciality">( Node.js/ React) :</strong> 
+                        <strong id="person-company"></strong> <br>
+                        à 
+                        <a href="https://www.prefailles.fr/" target="_blank">
+                            <strong id="person-city">Préfailles </strong>
+                        </a>(44, Nantes).
+                    </p>
                     <div>
                         <a class="button" target="_blank" id="person-email" href="mailto:alexandre.kelifa@gmail.com">M'envoyer un email</a>
                         <span class="or"> ou </span>
@@ -46,7 +53,7 @@
                         <a target="_blank" class="button" href="src/img/CV_2021-08-25_Alexandre_Kelifa-2.png" >CV vie d'avant!</a>
  
                     </div>
-                    <hr/>s
+                    <hr/>
                 </section>
                 <section>
                     <h3>Compétences</h3>
@@ -56,11 +63,14 @@
                                 <span class="skill-favorite fa fa-bolt"></span>
                                 HTML/CSS
                                 <div class="box-well">
-                                    Langage
+                                Langage
                                 </div>
                             </div>
+                            <img class="skills-icons-right" src="src/img/html5.svg"/>
+                            <img class="skills-icons-right" src="src/img/css3.svg"/>
                         </li>
                         <li>
+                            <img class="skills-icons-left" src="src/img/javascript.svg"/>
                             <div class="skill-box">
                                 <span class="skill-favorite fa fa-bolt"></span>
                                 JavaScript
@@ -74,15 +84,19 @@
                                 <span class="skill-favorite fa fa-bolt"></span>
                                 React.js
                                 <div class="box-well">
-                                    Librairie
+                                    Library
                                 </div>
                             </div>
+                            <img class="skills-icons-right" src="src/img/react.svg"/>
+                            <img class="skills-icons-right" src="src/img/redux.svg"/>
                         </li>
                         <li>
+                            <img class="skills-icons-left" src="src/img/nodedotjs.svg"/>
+                            <!-- <img class="skills-icons-left" src="src/img/express.svg"/> -->
                             <div class="skill-box">
                                 Node.js
                                 <div class="box-well">
-                                    Language serveur
+                                    Server language
                                 </div>
                             </div>
                         </li>
@@ -90,13 +104,15 @@
                             <div class="skill-box">
                                 Ruby
                                 <div class="box-well">
-                                    Language serveur
+                                    Server language
                                 </div>
                             </div>
+                            <img class="skills-icons-right" src="src/img/ruby.svg"/>
                         </li>
                         <li>
+                            <img class="skills-icons-left" src="src/img/rubyonrails.svg"/>
                             <div class="skill-box">
-                                Ruby on Rails
+                                On Rails
                                 <div class="box-well">
                                     Framework
                                 </div>
@@ -109,8 +125,11 @@
                                     Versioning
                                 </div>
                             </div>
+                            <img class="skills-icons-right" src="src/img/git.svg"/>
+                            <img class="skills-icons-right" src="src/img/github.svg"/>
                         </li>
                         <li>
+                            <img class="skills-icons-left" src="src/img/heroku.svg"/>
                             <div class="skill-box">
                                 Heroku
                                 <div class="box-well">
@@ -174,15 +193,17 @@
                         <div class="step">
                             <p class="step-title">Oclock.io - 2021</p>
                             <p>Dîplomé d'un titre professionnel de développeur web et web mobile</p>
+                            <a target="_blank" class="button" href="https://oclock.io/formations/developpeur-web-fullstack-javascript?gclid=Cj0KCQjwnJaKBhDgARIsAHmvz6cRvcLE9R1gAht43LHMiksEiiecLiJVFZ8YQDilyLkGa891fQZT1IEaAnLfEALw_wcB" >Voir la formation</a>
                         </div>
                         <div class="step">
                             <p class="step-title">Opquast - Juillet 2021</p>
                             <p>Formation maîtrise de la qualité en projet Web</p>
-                            <!-- <a target="_blank" class="button" href="src/img/OPQUAST-CERTIFICAT-MQW-fr-047J3Z-20210730-1.png" >voir</a> -->
+                            <a target="_blank" class="button" href="https://website.oqs-cdn.com/wp-content/uploads/2020/10/PG_MQW_20201005.pdf" >Télécharger info.pdf</a>
                         </div>
                         <div class="step">
                             <p class="step-title">The Hacking Project - session covid 2020</p>
                             <p>Formation Ruby On Rails</p>
+                            <a target="_blank" class="button" href="https://www.thehackingproject.org/parcours/2" >Voir la formation</a>
                         </div>
                         <div class="step">
                             <p class="step-title">ITAS et interim - 2010 à 2019</p>
@@ -191,12 +212,26 @@
                         <div class="step">
                             <p class="step-title">BTS Lycée Livet (Nantes)- 2009
                             <p>Electrotechnique - Formation pour adulte en une année</p>
+                            <a target="_blank" class="button" href="https://www.greta-cfa-paysdelaloire.fr/nos-formations/produit/greta-cfa-loire-atlantique/bts-electrotechnique/nantes-livet/action-1" >Voir la formation</a>
                         </div>
                         <div class="step">
                             <p class="step-title">Interim - 2002 à 2009</p>
                             <p>Electrien et monteur réseau mobile</p>
+                            <p>Habilitation électrique B2V-BR</p>
+                            <a target="_blank" class="button" href="http://www.habilitation-electrique.com/habilitations,symboles-habilitation.html" >Signification</a>
+                            <p>Habilitation travail sur pylone toiture et château d'eau</p>
+                            <a target="_blank" class="button" href="http://www.altitudeformation.fr/altitude-formation.html" >Explications</a>
+                            <p>Formation vérification de systèmes anti-chute verticaux Söll</p>
+                            <a target="_blank" class="button" href="https://sps.honeywell.com/fr/fr/products/safety/fall-protection/vertical-systems" >Explications</a>
                         </div>
                     </div>
+                </div>
+            </section>
+            <section class="network">
+                <div class="networks">
+                    <a class="network-links" target="_blank" href="https://www.linkedin.com/in/alexandre-kelifa/"><img class="network-logo" src="./src/img/linkedin.svg" alt="linkedIn logo">Check</a>
+                    <a class="network-links" target="_blank" href="https://twitter.com/AlexandreKelifa" ><img class="network-logo" src="./src/img/twitter.svg" alt="twitter logo">My</a>
+                    <a class="network-links" target="_blank" href="https://github.com/AlphaKappa44" ><img class="network-logo" src="./src/img/github.svg" alt="github logo">Networks</a>
                 </div>
             </section>
         </div>

@@ -43,3 +43,7 @@
     left: calc(50% + 20px);
     border: 2px solid white;
 }
+
+#person-description {
+    padding: 15px;
+}

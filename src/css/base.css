@@ -57,7 +57,7 @@ hr {
     opacity: 0.3;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 650px){
     .button {
         margin: 5px 10px;
     }

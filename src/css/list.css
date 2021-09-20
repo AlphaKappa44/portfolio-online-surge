@@ -17,10 +17,10 @@
 }
 
 .list li:nth-child(odd){
-    text-align: right;
+    text-align: left;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 650px){
     .list li {
         width: 100%;
     }
