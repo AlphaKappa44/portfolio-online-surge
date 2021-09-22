@@ -1,12 +1,17 @@
+.competences {
+    max-width: 500px;
+}
+
 .skill-box {
     position: relative;
     display: inline-block;
     box-sizing: border-box;
+    width: 250px;
     background: #1abc9c;
     padding: 10px 10px;
     border-radius: 3px;
     color: white;
-    margin: 5px;
+    margin: 5px 20px;
 }
 
 .skill-box .fa.skill-favorite {
@@ -21,19 +26,20 @@
     background-color: white;
     height: 30px;
     position: relative;
-    display: inline-block;  
+    display: inline-block;
     top: calc(50% - 15px);
-    left: 10px;
-    margin-left: 10px;
+    float: right;
+    padding-left: 5px;
 }
 
 .skills-icons-left {
     background-color: white;
     height: 30px;
     position: relative;
-    display: inline-block;  
+    display: inline-block;
     top: calc(50% - 15px);
-    left: 240px;
+    right: auto;
+    padding-right: 10px;
 }
 
 
@@ -72,8 +78,8 @@
     height: 30px;
     /* position: relative; */
     display: inline-block;  
-    top: calc(50% - 15px);
-    left: -25px;
+    top: calc(50% - 22px);
+    left: -57px;
 }
 
 .skills-icons-left {
@@ -81,7 +87,7 @@
     height: 30px;
     position: relative;
     display: inline-block;  
-    top: calc(50% - 50px);
-    left: 50px;
+    top: calc(50% - 55px);
+    left: -55px;
 }
 }
