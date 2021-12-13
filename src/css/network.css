@@ -44,3 +44,10 @@
     }
 
 }
+
+@media screen and (max-width: 400px){
+    .networks {
+        width: 80%;
+    }
+
+}

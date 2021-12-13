@@ -109,3 +109,13 @@
         border: 2px solid white;
     }
 }
+
+@media screen and (max-width: 400px){
+    #uk-flag {
+        left: calc(79% + 0px);
+    }
+    #french-flag {
+        left: calc(64% + 0px);
+    }
+
+}
