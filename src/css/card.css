@@ -47,7 +47,7 @@
 #french-flag {
     position: absolute;
     border-radius: 50%;
-    width: 45px;
+    width: 30px;
     height: 30px;
     top: -17px;
     left: calc(24% + 0px);
@@ -57,7 +57,7 @@
 #uk-flag {
     position: absolute;
     border-radius: 50%;
-    width: 45px;
+    width: 30px;
     height: 30px;
     top: -17px;
     left: calc(54% + -20px);
@@ -67,7 +67,7 @@
 #spanish-flag {
     position: absolute;
     border-radius: 50%;
-    width: 45px;
+    width: 30px;
     height: 30px;
     top: -17px;
     left: calc(84% + 0px);
@@ -76,4 +76,36 @@
 
 #person-description {
     padding: 25px;
+}
+
+@media screen and (max-width: 650px) {
+    #french-flag {
+        position: absolute;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        top: -17px;
+        left: calc(34% + 0px);
+        border: 2px solid white;
+    }
+    
+    #uk-flag {
+        position: absolute;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        top: -17px;
+        left: calc(64% + -20px);
+        border: 2px solid white;
+    }
+    
+    #spanish-flag {
+        position: absolute;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        top: -17px;
+        left: calc(94% + 0px);
+        border: 2px solid white;
+    }
 }
