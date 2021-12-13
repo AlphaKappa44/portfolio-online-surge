@@ -1,13 +1,16 @@
 .networks {
     display: flex;
-    margin-top: 20px;
+    justify-content: space-around;
+    margin-bottom: 30px;
     box-sizing: content-box;
     background: white;
+    font-size: 0.7rem;;
     max-width: 600px;
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 10%);
-    padding: 20px;
+    width: 145%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgb(93 208 185 / 10%);
+    border: solid 1px rgb(93, 208, 185);
+    padding: 30px;
     box-sizing: border-box;
 
 }

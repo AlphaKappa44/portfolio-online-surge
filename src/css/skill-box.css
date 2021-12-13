@@ -7,10 +7,11 @@
     display: inline-block;
     box-sizing: border-box;
     width: 250px;
-    background: #1abc9c;
+    border: 2px solid rgb(26 188 156 / 90%);
+    opacity: 0.7;
     padding: 10px 10px;
     border-radius: 3px;
-    color: white;
+    color: black;
     margin: 5px 20px;
 }
 

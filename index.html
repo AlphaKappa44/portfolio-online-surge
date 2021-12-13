@@ -28,22 +28,32 @@
     </head>
     <body>
         <div class="page">
+            <section class="network">
+                <div class="networks">
+                    <a class="network-links" target="_blank" href="https://www.linkedin.com/in/alexandre-kelifa/"><img class="network-logo" src="./src/img/linkedin.svg" alt="linkedIn logo">LinkedIn</a>
+                    <a class="network-links" target="_blank" href="https://twitter.com/AlexandreKelifa" ><img class="network-logo" src="./src/img/twitter.svg" alt="twitter logo">Tweeter</a>
+                    <a class="network-links" target="_blank" href="https://github.com/AlphaKappa44" ><img class="network-logo" src="./src/img/github.svg" alt="github logo">Github</a>
+                </div>
+            </section>
             <div class="card" id="person">
                 <img id="person-picture" src="src/img/Photo_CV_Pull_vert_Fond_vert.png"/>
-                <img id="person-country" src="https://image.flaticon.com/icons/svg/197/197560.svg"/>
+                <img id="uk-flag" src="src/img/UkFlag.png"/>
+                <img id="french-flag" src="src/img/frenchFlag.png"/>
+                <img id="spanish-flag" src="src/img/espanaBandera.png"/>
                 <section>
                     <h1 id="person-fullname"></h1>
                     <h2 id="person-job"></h2>
-                    <p id="person-description">Bienvenu.e.s, je m'appelle
+                    <p id="person-description">Bienvenu.e.s, welcome, bienvenid.o.a.s! <br/>
+                        Je m'appelle
                         <strong id="person-firstname">Alexandre</strong>  
-                        <strong id="person-position">Kélifa</strong>. </br>
-                        Je suis développeur junior JavaScript
+                        <strong id="person-position">Kélifa</strong> - </br>
+                        Je suis développeur JavaScript
                         <strong id="person-speciality">( Node.js/ React) </strong> 
-                        <strong id="person-company"></strong> <br>
-                        à 
+                        <strong id="person-company"></strong> - junior -<br>
+                        (
                         <a href="https://www.prefailles.fr/" target="_blank">
                             <strong id="person-city">Préfailles </strong>
-                        </a>(44, Nantes).
+                        </a>/ Nantes).
                     </p>
                     <div>
                         <a class="button" target="_blank" id="person-email" href="mailto:alexandre.kelifa@gmail.com">M'envoyer un email</a>
@@ -143,7 +153,7 @@
                 <section>
                     <h3>Réalisations</h3>
                     <div class="thumbnail" >
-                        <div class="thumbnail-cover" style="background-image: url(/src/img/comicsTripLogo.png)"></div>
+                        <div class="thumbnail-cover" style=background-image:url('/src/img/comicsTripLogo.png')"></div>
                         <div class="thumbnail-content">
                             <span class="badge">Ruby on Rails</span>
                             <p class="thumbnail-title">ComicsTrip </p>
@@ -159,7 +169,7 @@
                         </div>
                     </div>
                     <div class="thumbnail" >
-                        <div class="thumbnail-cover" style="background-image: url(/src/img/Poker.png)"></div>
+                        <div class="thumbnail-cover" style="background-image: url('/src/img/Poker.png')"></div>
                         <div class="thumbnail-content">
                             <span class="badge">React - Node.js</span>
                             <p class="thumbnail-title">Poker Tool </p>
@@ -191,8 +201,14 @@
                     <h3>Parcours</h3>
                     <div class="path">
                         <div class="step">
+                            <p class="step-title">Le coup de main numérique - 2021</p>
+                            <p>Node.js / React - Stage au sein d'une asso luttant contre l'illectronisme. 
+                                Développement d'une plateforme de prise de rendez-vous.</p>
+                            <a target="_blank" class="button" href="https://le-coup-de-main-numerique.org/" >Connaitre l'association</a>
+                        </div>
+                        <div class="step">
                             <p class="step-title">Oclock.io - 2021</p>
-                            <p>Dîplomé d'un titre professionnel de développeur web et web mobile</p>
+                            <p>Titre professionnel: développeur web et web mobile</p>
                             <a target="_blank" class="button" href="https://oclock.io/formations/developpeur-web-fullstack-javascript?gclid=Cj0KCQjwnJaKBhDgARIsAHmvz6cRvcLE9R1gAht43LHMiksEiiecLiJVFZ8YQDilyLkGa891fQZT1IEaAnLfEALw_wcB" >Voir la formation</a>
                         </div>
                         <div class="step">
@@ -225,15 +241,8 @@
                             <a target="_blank" class="button" href="https://sps.honeywell.com/fr/fr/products/safety/fall-protection/vertical-systems" >Explications</a>
                         </div>
                     </div>
-                </div>
-            </section>
-            <section class="network">
-                <div class="networks">
-                    <a class="network-links" target="_blank" href="https://www.linkedin.com/in/alexandre-kelifa/"><img class="network-logo" src="./src/img/linkedin.svg" alt="linkedIn logo">Check</a>
-                    <a class="network-links" target="_blank" href="https://twitter.com/AlexandreKelifa" ><img class="network-logo" src="./src/img/twitter.svg" alt="twitter logo">My</a>
-                    <a class="network-links" target="_blank" href="https://github.com/AlphaKappa44" ><img class="network-logo" src="./src/img/github.svg" alt="github logo">Networks</a>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
         <script src="./src/js/main.js"></script>
     </body>
