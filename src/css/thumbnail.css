@@ -2,7 +2,8 @@
     display: inline-block;
     border-radius: 11px;
     width: 100%;
-    max-width: 240px;
+    height: fit-content;
+    max-width: 230px;
     box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
     text-align: left;
     vertical-align: top;
@@ -26,7 +27,7 @@
     position: relative;
     padding: 20px;
     background: white;
-    min-height: 120px;
+    min-height: 170px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-sizing: border-box;
@@ -86,7 +87,7 @@
 
 .thumbnail-footer a{
     display: inline-block;
-    background: #3498db;
+    background: rgb(52, 152, 219);
     color: white;
     font-size: 12px;
     border-radius: 20px;
@@ -94,3 +95,9 @@
     padding: 5px 10px;
     font-weight: 500;
 }
+
+.thumbnail-footer a:hover{
+    color: rgb(52, 152, 219, 0.802);
+    background-color: rgb(255, 255, 255, 0.702);
+    border: solid rgb(52, 152, 219, 0.8)
+  }

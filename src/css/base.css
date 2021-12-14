@@ -59,15 +59,23 @@ hr {
 .button {
   display: inline-flex;
   justify-content: center;
-  max-width: 200px;
+  width: 100px;
+  height: 15px;
   padding: 10px 20px;
-  border: 2px solid rgb(255 128 82 / 90%);
+  border: 2px solid rgb(255 128 82 / 70%);
+  background-color: rgb(255 128 82 / 5%);
   opacity: 0.6;
-  border-radius: 5px;
-  font-size: 16px;
+  border-radius: 50px;
+  font-size: 12px;
   margin: 10px;
   text-decoration: none;
   color: black;
+  align-items: center;
+}
+
+.button:hover{
+  background-color: rgba(93, 208, 185, 0.202);
+  border: 2px solid rgba(93, 208, 185, 0.702);
 }
 
 [disabled] {
