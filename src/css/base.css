@@ -46,6 +46,12 @@ a {
     color: rgba(93, 208, 185, 0.902);
   }
 
+a:hover{
+  color: rgb(255 128 82 / 30%);
+ 
+  font-weight: bold;
+}
+
 #person-city {
     color: rgba(0, 0, 0, 0.8);
 }
