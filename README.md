@@ -1,4 +1,5 @@
-> "I Created a fast online portfolio for job seeking as a developper (React and Node JS)"
+> "I Created a fast online portfolio (Vanilla JS) 
+> for job seeking purpose as a developper (React and Node JS)"
 
 ## Check it there :https://alexandre-kelifa.surge.sh/ 
 
