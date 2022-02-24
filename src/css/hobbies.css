@@ -1,0 +1,22 @@
+.hobbies {
+    display: flex;
+    flex-direction:column;
+    margin-top: 20px;
+}
+
+.running {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    /* margin-top: 20px */
+}
+
+iframe {
+    margin-top: 20px;
+}
+
+li {
+    margin-top: 20px;
+}
+
